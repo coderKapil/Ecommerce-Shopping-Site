@@ -1,0 +1,474 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;1,100;1,200;1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #eeee;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #eeee;
+    padding: 17px;
+    box-shadow: 0px 2px 2px 2px #a6a3a3ee;
+}
+
+
+nav .logo {
+    margin-left: 22px;
+    font-size: 24px;
+}
+
+ul {
+    margin-right: 45px;
+    margin-top: 7px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+ul li a {
+    margin-inline: 22px;
+    font-size: 20px;
+    color: black;
+}
+
+ul li i {
+    font-size: 22px;
+}
+
+ul li #home {
+    color: rgb(5, 168, 168);
+}
+
+ul li a:hover {
+    border-bottom: 2px solid black;
+    cursor: pointer;
+}
+
+ul li i:hover {
+    color: grey;
+    cursor: pointer;
+}
+
+/* main page css  */
+
+.main {
+    display: flex;
+    justify-content: space-around;
+}
+
+.main .mainText {
+    margin-top: 144px;
+}
+
+.mainText h1 {
+    font-size: 44px;
+}
+
+.mainText .top {
+    color: rgb(4, 140, 140);
+}
+
+.mainText button {
+    width: 145px;
+    height: 40px;
+    background-color: rgb(2, 139, 139);
+    border: none;
+    font-size: 22px;
+    color: white;
+    margin-top: 24px;
+}
+
+.mainText p {
+    margin-top: 12px;
+}
+
+.mainText button:hover {
+    border: 2px solid rgb(1, 156, 156);
+    background: transparent;
+    color: rgb(4, 194, 194);
+    cursor: pointer;
+}
+
+/* card styling  */
+.head h1 {
+    text-align: center;
+    padding: 33px;
+    margin-top: 32px;
+}
+
+.head span {
+    color: rgb(2, 164, 164);
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+}
+
+.card .crd {
+    width: 300px;
+    height: 500px;
+    background-color: white;
+    margin-inline: 11px;
+}
+
+.crd img {
+    width: 100%;
+    padding: 22px;
+    border-radius: 31px;
+}
+
+.crdText {
+    margin-left: 16px;
+    padding: 8px;
+}
+
+.crdText button {
+    width: 110px;
+    height: 33px;
+    border: none;
+    background-color: rgb(6, 147, 147);
+    color: white;
+    font-size: 19px;
+    margin-top: 11px;
+}
+
+.crdText i {
+    color: rgb(203, 177, 32);
+}
+
+.blog {
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    height: 300px;
+    background-color: #fff;
+    margin-inline: 22px;
+    padding: 22px;
+    border-radius: 11px;
+}
+
+.blog:hover {
+    transition: 0.6s ease;
+    width: 520px;
+    height: 320px;
+}
+
+.blog img {
+    width: 85%;
+
+}
+
+.blog-text {
+    padding: 12px;
+    margin-top: 33px;
+}
+
+.blog-text a {
+    width: 120px;
+    padding: 4px;
+    height: 18px;
+    background-color: rgb(10, 136, 136);
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    position: relative;
+    top: 33px;
+}
+
+.letter {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(2, 2, 100);
+    color: white;
+    padding: 44px;
+}
+
+.inp {
+    display: flex;
+}
+
+.inp input {
+    width: 330px;
+    height: 33px;
+    outline: none;
+    font-size: 18px;
+    border: none;
+    padding: 10px;
+}
+
+.inp button {
+    width: 100px;
+    height: 36px;
+    background-color: rgb(10, 147, 147);
+    color: white;
+    border: none;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 53px;
+}
+
+.footer .footerText {
+    margin-inline: 85px;
+}
+
+.footerText p {
+    margin-top: 11px;
+}
+
+/* about  */
+
+.about {
+    /* bcs we dont want to see it until we click over about  */
+    display: none;
+}
+
+.aboutus {
+    background-color: rgb(3, 3, 48);
+    color: white;
+    padding: 56px;
+    font-size: 19px;
+}
+
+.me {
+    display: flex;
+    justify-content: center;
+    width: 700px;
+    background-color: #fff;
+    padding: 33px;
+    margin-left: 17%;
+    margin-top: 7%;
+    margin-bottom: 22px;
+}
+
+.me img {
+    width: 54%;
+}
+
+/* contact  */
+/* bcs we dont want to see it until we click over about  */
+.contact {
+    display: none;
+}
+
+.contactus {
+    background-color: rgb(3, 3, 48);
+    color: white;
+    padding: 56px;
+    font-size: 19px;
+}
+
+.contactMe {
+    display: flex;
+    justify-content: center;
+    width: 1000px;
+    margin-top: 5%;
+    margin-left: 10%;
+    background-color: #fff;
+}
+
+.contactMe img {
+    width: 55%;
+}
+
+.contactText {
+    padding: 22px;
+    width: 600px;
+}
+
+.contactText p {
+    margin-top: 12px;
+}
+
+.form {
+    text-align: center;
+    margin-top: 5%;
+    padding: 22px;
+}
+
+.form input {
+    width: 300px;
+    padding: 5px;
+    height: 27px;
+    margin-top: 11px;
+}
+
+.form button {
+    width: 300px;
+    height: 36px;
+    background-color: rgb(4, 72, 72);
+    color: white;
+    font-size: 22px;
+    border: none;
+    margin-top: 22px;
+}
+
+.cart {
+    display: flex;
+    justify-content: center;
+    display: none;
+}
+
+.cartText {
+    padding: 22px;
+    margin-top: 22px;
+}
+
+.cartText p {
+    margin-top: 12px;
+}
+
+.cartText h2 {
+    margin-top: 11px;
+}
+
+.cartText .btn button {
+    width: 140px;
+    height: 40px;
+    background-color: rgb(255, 89, 0);
+    color: white;
+    border: none;
+    font-size: 22px;
+    margin-inline: 11px;
+    margin-top: 22px;
+    cursor: pointer;
+}
+
+.cartText .back {
+    width: 140px;
+    height: 40px;
+    background-color: rgb(7, 193, 193);
+    color: white;
+    border: none;
+    font-size: 22px;
+    margin-inline: 11px;
+    margin-top: 22px;
+    cursor: pointer;
+}
+
+/* media query  */
+/* ... (previous CSS code) ... */
+
+/* Media Queries */
+@media (max-width: 768px) {
+
+    /* Adjustments for smaller screens */
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    ul {
+        margin-top: 0;
+        margin-right: 0;
+        padding-inline-start: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    ul li a {
+        margin-inline: 0;
+        margin-top: 8px;
+    }
+
+    ul li i {
+        margin-top: 8px;
+    }
+
+    .main {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .mainText {
+        margin-top: 40px;
+    }
+
+    .mainText h1 {
+        font-size: 30px;
+    }
+
+    .card {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card .crd {
+        width: 90%;
+        margin-inline: 0;
+        margin-bottom: 20px;
+    }
+
+    .blog {
+        width: 90%;
+        margin-inline: 0;
+        margin-bottom: 20px;
+    }
+
+    .blog:hover {
+        width: 100%;
+        height: auto;
+    }
+
+    .me {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+    }
+
+    .me img {
+        width: 100%;
+        max-width: 300px;
+        margin-top: 20px;
+    }
+
+    .contactMe {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+    }
+
+    .contactMe img {
+        width: 100%;
+        max-width: 300px;
+    }
+}
+
+/* ... (your existing CSS code) ... */
+
+/* Media Queries */
+@media only screen and (max-width: 768px) {
+
+    /* Mobile and Tablet */
+    .mainText h1 {
+        font-size: 30px;
+    }
+
+    /* Adjust other styles as needed */
+}
+
+@media only screen and (max-width: 480px) {
+
+    /* Smaller Mobile */
+    .mainText h1 {
+        font-size: 26px;
+    }
+
+    /* Adjust other styles as needed */
+}
+
+
+/* ... (rest of the CSS code) ... */
